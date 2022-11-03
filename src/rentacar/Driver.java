@@ -17,17 +17,19 @@ import java.io.FileReader;
 import java.io.IOException;
 
 // INCLUDE HERE THE LINK TO THE GIT REPOSITORY AS A COMMENT!!!!
+// https://github.com/CCTMatt/RentACar
 
 
-// INCLUDE HERE THE FULL NAME AND STUDENT NUMBER OF BOTH TEAM MEMBERS 
+// INCLUDE HERE THE FULL NAME AND STUDENT NUMBER OF BOTH TEAM MEMBERS
+//Matthew Logan          2021390 
+//Franklin Arruda Cirino 2021368
 // AS A COMMENT!!!!
 
 public class Driver {
 
     /**
      * Do not change the signature of the main method!
-     * Hello
-     *
+     * 
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
