@@ -22,6 +22,7 @@ public class BookingSystem implements BookingSystemInterface {
  */
    
     public String bookSystem;
+    public String rentACar;
     
     // method will get booking 
     public String getBook () { 
@@ -39,17 +40,18 @@ public class BookingSystem implements BookingSystemInterface {
         // This keyword refers to current instance itself
     }
 
+    // will return the Car renting values
     @Override
     public RentACarInterface setupRentACar(BufferedReader in) 
     
-    {
+            }
        
-        return null;
+        return this.rentACar;
        
     }
-
+    // WILL NOT RETURN ANYTHING
     private void setupRentACar(InputStream in) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        
     }
     
     

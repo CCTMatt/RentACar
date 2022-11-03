@@ -16,17 +16,24 @@ public class Car implements CarInterface{
     //this implements the interface
     
     //attributes that will use for the getter ans setters
-    public String getCar;
+    private String getMakes;
+    public double getRates;
+    public String GetId;
+    public String SetAvailibility;
+    
 
     @Override
     public Map<Month, boolean[]> createAvailability() {
         
+        return null;
+        
     }
 
-   
+   //this will return the make 
+    @Override
     public String getMake() {
         
-        return this.getCar;
+        return this.getMakes;
         
     }
 
@@ -35,39 +42,48 @@ public class Car implements CarInterface{
     public void setMake(Make make) {
     }
 
+    
+    // will return the rate
     @Override
     public double getRate() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       
+        return this.getRates;
     }
 
+    
+    // will return the car rate
     @Override
     public void setRate(double rate) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        
     }
 
+    // will set the availibility and return the assigned values 
     @Override
     public Map<Month, boolean[]> getAvailability() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return this.SetAvailibility;
+       
     }
 
     @Override
     public void setAvailability(Map<Month, boolean[]> availability) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
+    //will return the ID
     @Override
     public int getId() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return this.GetId; 
     }
 
+    //
     @Override
     public boolean isAvailable(Month month, int day) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        
+        return this.SetAvailibility;
     }
 
     @Override
     public boolean book(Month month, int day) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        
     }
     
 }
